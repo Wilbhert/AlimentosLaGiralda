@@ -11,50 +11,59 @@
     <title>La giralda</title>
   </head>
   <body>
-    <h1 class="text-center">Creacion Nuevo Usuario</h1>
+    <h1 class="text-center"><strong>Creacion Nuevo Usuario</strong></h1>
   <div class="container-fluid">
+    <div style="display: flex;flex-direction: row-reverse;">
+      <img src="https://www.svgrepo.com/show/10678/avatar.svg" width="220" height="220" alt="usuario avatar">
+    </div>
     <form>
-      <div class="form-row">
-        <div class="form-group col-md-6">
+      <div class="row">
+        <div class="form-group col-md-6 ">
           <label>Nombre</label>
-          <input type="text" class="form-control" id="nombre"  placeholder="Nombre del empleado">
+          <input type="text" style="background-color:#f6ecec;" class="form-control" id="nombre"  placeholder="Nombre del empleado">
         </div>
         <div class="form-group col-md-6">
           <label>Apellido</label>
-          <input type="text" class="form-control" id="apellido"  placeholder="Apellido del empleado">
+          <input type="text" style="background-color:#f6ecec;" class="form-control" id="apellido"  placeholder="Apellido del empleado">
         </div>
-      </div>  
-      <div class="col-md-6">
-        <label  class="form-label">Cargo</label>
-        <input type="text" class="form-control" id="cargo"  placeholder="Cargo del empleado">
       </div>
-      <div class="col-md-6">
-        <label  class="form-label">Nombre de usuario</label>
-        <input type="text" class="form-control" id="nombreusuario"  placeholder="Nombre de usuario">
-      </div>
-      <div class="col-md-6">
-        <label  class="form-label">Puntaje</label>
-        <input type="text" class="form-control" id="Puntaje"  placeholder="Ingrese Puntaje">
+      <div class="row">
+        <div class="col-md-6">
+          <label  class="form-label">Cargo</label>
+          <input type="text" style="background-color:#f6ecec;" class="form-control" id="cargo"  placeholder="Cargo del empleado">
+        </div>
+        <div class="col-md-6">
+          <label  class="form-label">Area</label>
+          <input type="text" style="background-color:#f6ecec;" class="form-control" id="Area"  placeholder="Cargo del empleado">
+        </div>  
       </div>
       <div class="col-md-6">
         <label  class="form-label">Fecha Ingreso</label>
-        <input type="date" class="form-control" id="fechaingreso">
+        <input type="date" style="background-color:#f6ecec;" class="form-control" id="fechaingreso">
       </div>
       <div class="col-md-6">
         <label  class="form-label">Fecha Terminación de contrato</label>
-        <input type="date" class="form-control" id="fechaterminacion">
+        <input type="date" style="background-color:#f6ecec;" class="form-control" id="fechaterminacion">
+      </div>
+      <div class="col-md-6">
+        <label  class="form-label">Nombre de usuario</label>
+        <input type="text" style="background-color:#f6ecec;" class="form-control" id="nombreusuario"  placeholder="Nombre de usuario">
+      </div>
+      <div class="col-md-6">
+        <label  class="form-label">Puntaje</label>
+        <input type="text" style="background-color:#f6ecec;" class="form-control" id="Puntaje"  placeholder="Ingrese Puntaje">
       </div>
       <div class="col-md-6">
         <label  class="form-label">Contraseña</label>
-        <input type="text" class="form-control" id="Contraseña"  placeholder="Ingrese su contraseña">
+        <input type="text" style="background-color:#f6ecec;" class="form-control" id="Contraseña"  placeholder="Ingrese su contraseña">
       </div>
       <div class="col-md-6">
         <label  class="form-label">Area</label>
-        <input type="text" class="form-control" id="Area"  placeholder="Cargo del empleado">
+        <input type="text" style="background-color:#f6ecec;" class="form-control" id="Area"  placeholder="Cargo del empleado">
       </div>      
       <div class="col-md-6">
         <label  class="form-label">Tipo de Contrato</label>
-        <select class="form-control">
+        <select class="form-control" style="background-color:#f6ecec;">
           <option>Seleccione...</option>
           <option>Prestación de servicios</option>
           <option>Termino Fijo</option>
@@ -63,12 +72,12 @@
       </div>
       <div class="col-md-6">
         <label  class="form-label">Salario</label>
-        <input type="text" class="form-control" id="Salario"  placeholder="Salario devengado">  
+        <input type="text" style="background-color:#f6ecec;" class="form-control" id="Salario"  placeholder="Salario devengado">  
       </div>
 
       <div class="col-md-6">
       <label  class="form-group">Tipo de Usuario</label>
-        <select class="form-control">
+        <select class="form-control" style="background-color:#f6ecec;">
           <option>Seleccione...</option>
           <option>Empleado</option>
           <option>Administrador</option>
@@ -77,13 +86,13 @@
       </div> 
       <div class="col-md-6">
         <label  class="form-label">Retroalimentación</label>
-        <textarea class="form-control" id="Retroalimentación" rows="3" placeholder="Ingrese retroalimentación"></textarea>
+        <textarea class="form-control" style="background-color:#f6ecec;" id="Retroalimentación" rows="3" placeholder="Ingrese retroalimentación"></textarea>
       </div>
       
       <button type="submit" class="btn btn-primary">Guardar</button>
       <button type="#" class="btn btn-danger">Cancelar</button>
     </form>
-    <img src="https://www.svgrepo.com/show/10678/avatar.svg" alt="usuario avatar">
+    
   </div> 
 
 
